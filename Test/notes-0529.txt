@@ -1,0 +1,113 @@
+ch 2 basic structures
+	1. sets
+	2. functions
+	3. sequences
+	4. sums
+	5. matrixes
+
+
+
+1. sets
+	- unordered collection of objects
+	- objects in a set are called elements/members
+	- use notation a E A (a belongs to A)
+	- use notation a /E/ A (a does not belong to A)
+	- order does not matter
+	- repeated members of the set does not count
+		- ie {1, 3, 2, 5} == {1, 1, 2, 1, 3, 3, 5}
+	- symbols for commonly used sets:
+		1. N  => natural numbers
+		2. Z  => integers
+		3. Z+ => positive integers
+		4. R  => real numbers
+		5. R+ => positive real numbers
+		6. C  => complex numbers
+		7. Q  => rational numbers
+	- set builder notation
+		- S = {x | condition for x}
+		- S = {x | x is a prime positive integer less than 10}
+			- O = {x E Z+ | x is odd and x < 100}
+		- able to use predicates
+		- S = {x | P(x)}
+		- positive rational numbers:
+			- Q+ = {x E R | x = p/q, p,q E Z+}
+	- interval notation
+		- closed [] => inclusive
+		- open () => exclusive
+	- universal sets U
+		- set containing everything currently under consideration
+	- empty set 0 or {}
+		- set containing no elements
+		- 0 != {0}
+	- set equality
+		- Vx(x E A <-> x E B)
+		- {1, 3, 2} == {1, 1, 1, 1, 1, 3, 1, 2}
+	- subsets
+		- A is a subset of B, if and only if every element of A
+		  is an element of B
+		- A (C_) B == Vx(x E A -> x E B}
+	- proper subsets
+		- if A (C_) B, but A != B, A is a proper subset of B
+		- denoted by A (C) B
+		- Vx(x E A -> x E B) && 3x(x E B && x /E/ A)
+		- ex. let A = {1, 2, 3}, B = {1, 2, 3, 4}
+		- A (C) B, i.e. there's an element in B that does not
+		  belong in A
+	- set cardinality
+		- cardinality of set A = |A| is the number of distinct
+		  elements of A
+		- |0| = 0
+		- |{1, 2, 3}| = 3
+		- |{0}| = 1
+	- power sets
+		- set of all subsets of set A is P(A)
+		- let A = {a, b},
+		  P(A) = {0, {a}, {b}, {a, b}}
+	- tuples
+		- ordered n-tuples (a1, a2, a3, ..., aN)
+	- cartesian products
+		- denoted A x B
+		- set of ordered pairs (a,b) where
+		  a E A and b E b
+		- A x B = {(a, b) | a E A && b E B}
+		- subset R of the cartesian product A x B
+		  is called a Relation from the set A to the set B
+	- truth sets of quantifiers
+		- given predicate P and domain D, we define the 
+		  truth set of P to be set of the elements in D
+		  for which P(x) is true
+		- the truth set of P(x) is defined as:
+		  {x E D | P(x)}
+
+set operations
+	1. union
+	2. intersection
+	3. complementation
+	4. difference
+	
+1. operations
+	- union
+		- A U B
+		- {x | x E A || x E B}
+	- intersection
+		- A n B
+		- {x | x E A && x E B}
+	- complement
+		- A^c
+		- {x | x E U | x /E/ A}
+	- difference
+		- A - B == A n B^c
+		- {x | x E B && x /E/ B}
+	
+				
+
+
+
+
+
+
+
+
+
+
+

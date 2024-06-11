@@ -1,0 +1,54 @@
+2.3 Functions
+  
+  def:
+    - a function f from A to B denoted:
+        - f: A -> B
+    - assignment of each element in A to exactly one element in B
+    - A is the domain of f
+    - B is the co-domain of f
+  
+  injections
+    - a function f is said to be 1:1 or injective iff. f(a) = f(b)
+      implies that a = b for all a & b in the domain of f
+  
+  surjections
+    - a function is onto or surjective iff. for every element b in B,
+      there is an element a in A with f(a) = b
+
+  bijections
+    - a function is a 1:1 correspondence or a bijection if it
+      is both surjective and injective
+
+  inverse function
+    - let f be a bijection from A to B, then the inverse of f is the 
+      function from B to A denoted f^-1(y) = x iff. f(x) = y
+
+  2.4 sequences & summations
+    
+    sequences
+      - ordered lists of elements
+      - a function from a subset of integers to a set S
+    
+    strings
+      - finite sequence of characters from a finite set (alphabet)
+      - empty string is represented by lambda
+
+    recurrence relations
+      - a recurrence relation for the sequence {An} is an equation that
+        expresses An in terms of one or more of the previous terms of the sequence
+      - a sequence is called a solution of the recurrence relation if its terms
+        statisfy the recurrence relation
+      - the initial condition specify the terms that preced the first term where
+        the recurrence relation takes effect.
+
+    summations
+      - 
+
+
+
+
+
+
+
+
+

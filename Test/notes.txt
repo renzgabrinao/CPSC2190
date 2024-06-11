@@ -1,0 +1,13 @@
+1.7 intro to proofs
+
+summary:
+    1. mathematical proofs
+    2. forms of theory
+    3. direct proofs
+    4. indirect proofs
+
+1. mathematical proofs
+    proof is a valid argument that establishes the truth of a statement.
+    theorem is a statement that can be shown true by using definitions, other theorems, axioms
+    
+    
