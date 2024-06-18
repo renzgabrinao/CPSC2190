@@ -1,0 +1,50 @@
+ch 3 algorithms
+
+  def.
+    finite set of precise instructions for performing a computation
+    or for solving a problem
+
+  properties of an algorithm
+    1. input
+      - input values from a specified set
+    2. output
+      - produces output values from the input values
+    3. correctness
+      - should produce correct output values for each set of input values
+    4. finiteness
+      - should produce the output after a finite number of steps for any input
+    5. effectiveness
+      - must be possible to perform each step of the algorithm correctly
+        in a finite amount of time
+    6. generality
+      - algorithm should work for all problems of the desired form
+
+    linear search:
+    - locates an item in a list of elements in the sequence once at a time
+  
+    binary search:
+    - assume the list of elements is sorted in increasing order
+      1. let i := 1, j := n
+      2. while i < j:
+            m := floor((i + j) / 2)
+            if x > am then i := m + 1
+            else j := m
+      3. if x = ai then return i
+         else return 0
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
