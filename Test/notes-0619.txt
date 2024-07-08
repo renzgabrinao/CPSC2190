@@ -1,0 +1,66 @@
+number theory
+
+    divisibility and modular arithmetic:
+
+    1. division:
+      - def: if a, b are ints with a != 0,
+             then a divides b if there exists
+             an int c such that b = a
+    
+      - a | b => a divides b => b/a
+
+      - properties:
+        - if a | b & a | c, then a | (b + c)
+        - if a | b , then a | bc for all ints c
+        - if a | b & b | c, then a | c
+
+      - division algorithm:
+        - d: divisor
+        - a: divident
+        - q: quotient
+        - r: remainder
+
+        - div: q = a div d
+        - mod: r = a mod d
+          ex. 11 div 3 = 3, 11 mod 3 = 2
+              -11 div 3 = -4, -11 mod 3 = 1
+
+      - congruence relation
+        - if a, b are ints and m is a ints+, then
+          a is congruent to b modulo m if m divides (a - b)
+        - notation a = b (mod m), a is congruent to b modulo m
+        - a = b (mod m) is a congruence and m is its modulus
+          ex. 17 = 5 (mod 6) because 6 divides 17 - 5 = 12
+              24 != 14 (mod 6) since 24 - 14 = 10 is not divisible by 6
+
+      - arithmetic modulation
+        - +m operation: defined as A +m B = (A + B) mod m
+        - *m operation: defined as A *m B = (A * B) mod m
+        - satisfies many of the same properties as addition and multiplication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

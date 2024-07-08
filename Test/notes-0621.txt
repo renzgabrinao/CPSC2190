@@ -1,0 +1,11 @@
+integer representations & algorithm
+
+  - summary:
+    - integer representation
+      - base b expansions
+      - binary expansions
+      - octal expansions
+      - hexadecimal expansions
+    - base conversion algorithm
+
+  - 

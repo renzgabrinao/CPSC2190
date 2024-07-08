@@ -1,0 +1,57 @@
+primes and greatest common divisors
+
+  primes
+    - positive integer > 1, and is only divisible
+      by itself and 1
+    - otherwise it is called composite
+
+    representing functions
+      - prime numbers of form 2^p - 1, where p is prime
+        are called mersenne primes.
+        ex. 2^2 - 1 = 3, 2^7 - 1 = 127
+
+    prime number theorem
+      - ratio of the number of primes not exceeding x
+        and x/lnx approaches 1 as x grows without bound
+
+    twin prime conjecture
+      - there are infinitely many pairs of twin primes
+      - twin primes are pair of primes that differ by 2
+        ex. (2, 3), (5,7), (11, 13)
+
+  greatest common divisors
+    - let a, b != 0, the largest integer d that (d | a) && (d | b)
+      is called the greatest common divisor of a and b (gcd)
+      ex. gcd(24, 36) = 12
+          gcd(17, 22) = 1
+
+    - integers a, b are relatively prime if their gcd is 1 (pairwise relatively prime)
+    
+  least common multiple
+    - lcm of positive integers a, b is the smallest positive integer that is 
+      divisible by both a and b.
+      ex. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
